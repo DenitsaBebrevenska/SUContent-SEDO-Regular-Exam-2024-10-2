@@ -13,7 +13,7 @@ using Type = Homies.Data.Data.Models.Type;
 
 namespace Homies.Tests.Controllers
 {
-    //checkout action
+    //checkout action rerun
     public class EventControllerUnitTests
     {
         private HomiesDbContext _context;
