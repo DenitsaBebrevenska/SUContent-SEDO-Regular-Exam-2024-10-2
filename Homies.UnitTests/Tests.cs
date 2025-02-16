@@ -1,22 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Http;
-using Moq;
-using NUnit.Framework;
-using Homies.Controllers;
+﻿using Homies.Controllers;
+using Homies.Data.Data;
 using Homies.Data.Data.Models;
 using Homies.Models.Event;
-using Homies.Data.Data;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Moq;
+using NUnit.Framework;
+using System.Security.Claims;
 using Type = Homies.Data.Data.Models.Type;
 
 namespace Homies.Tests.Controllers
 {
+    //checkout action
     public class EventControllerUnitTests
     {
         private HomiesDbContext _context;
